@@ -8,7 +8,8 @@ app.set("view engine", "ejs");
 
 // 라우팅
 const home = require("./src/routes/home")
-app.use("/", home); // 미들웨어 등록 
+app.use("/", home); // 미들웨어 등록
+app.use(express.static(`${__dirname}/src/public`)); 
 
 
 module.exports = app;
