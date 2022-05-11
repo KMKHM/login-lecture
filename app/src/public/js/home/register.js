@@ -10,6 +10,8 @@ const registerBtn = document.querySelector("#button");
 
 registerBtn.addEventListener("click", register);
 
+
+
 function register() {
     const req = {
         id : id.value,
