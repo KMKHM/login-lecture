@@ -2,7 +2,7 @@
 
 class UserStorage{
     static #users = { //정적변수로 해놔야 클래스자체에서 users에 접근 가능 #을 하면 private한 변수가 돼 외부에서 불러올 수 없다.
-        id: ["woormIT", "나개발", "김팀장"],
+        id: ["woorimIT", "나개발", "김팀장"],
         psword: ["1234", "12345", "1234546"],
         name: ["우리밋", "나개발", "김팀장"],
     };
