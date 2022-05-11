@@ -8,6 +8,7 @@ const ctrl = require("./home.ctrl") // 컨트롤러의 모듈화
 router.get("/", ctrl.output.home); //컨트롤러 분리
 
 router.get("/login", ctrl.output.login);
+router.get("/register", ctrl.output.register);
 router.post("/login", ctrl.process.login);
 
 
