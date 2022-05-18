@@ -1,5 +1,5 @@
 // 라우팅 분리
-"use strict" // 이그크마 스크립트 준수
+"use strict";// 이그크마 스크립트 준수
 
 const express = require("express");
 const router = express.Router();

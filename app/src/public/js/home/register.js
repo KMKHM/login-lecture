@@ -1,6 +1,5 @@
 "use strict";
 
-const { name } = require("ejs");
 
 const id = document.querySelector("#id");
 const name = document.querySelector("#name");
