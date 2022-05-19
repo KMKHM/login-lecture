@@ -2,6 +2,9 @@
 // 모듈
 const express = require("express");
 const bodyParser = require("body-parser");
+const dotenv = require("dotenv");
+dotenv.config();// 환경변수 => 개발은 팀단위로 하기 때문에 개개인마다 환경이 다르다 (운영체제가 다르다.)
+// => 어떤 os를 사용하든 가져올 수 있다.
 const app = express();
 
 // 라우팅
